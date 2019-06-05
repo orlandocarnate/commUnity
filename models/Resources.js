@@ -14,7 +14,12 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING(1000),
             allowNull: false,
             notEmpty: true,
-             
+        },
+        org_description_es: {
+            type: DataTypes.STRING(1000),
+        },
+        org_description_ar: {
+            type: DataTypes.STRING(1000),
         },
         org_location: {
             type: DataTypes.STRING,
